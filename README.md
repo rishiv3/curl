@@ -1,6 +1,19 @@
 # curl
 
 
+````PHP
+// error reporting
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+
+//setting url
+$url = 'http://example.com/api';
+
+//data
+$data = array("message" => "Hello World!!!");
+
+````
+
 
 ````PHP
 try {

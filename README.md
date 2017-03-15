@@ -1,5 +1,7 @@
 # curl
 
+Once you've compiled PHP with cURL support, you can begin using the cURL functions. The basic idea behind the cURL functions is that you initialize a cURL session using the curl_init(), then you can set all your options for the transfer via the curl_setopt(), then you can execute the session with the curl_exec() and then you finish off your session using the curl_close(). 
+
 
 ````PHP
 // error reporting

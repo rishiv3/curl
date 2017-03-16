@@ -6,7 +6,7 @@ ini_set("display_errors", 1);
 //setting url
 $url = 'http://example.com/api';
 
-//data
+//data must be an array and you can pass multiple values in it
 $data = array("message" => "Hello World!!!");
 try {
     $ch = curl_init($url);

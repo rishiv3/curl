@@ -1,4 +1,12 @@
-# curl
+# cURL
+
+## Introduction
+
+- cURL is a way you can hit a URL from your code to get a HTML response from it. 
+- It's used for command line cURL from the PHP language.
+- cURL is a library that lets you make HTTP requests in PHP.
+
+PHP supports libcurl, a library created by Daniel Stenberg, that allows you to connect and communicate to many different types of servers with many different types of protocols. libcurl currently supports the http, https, ftp, gopher, telnet, dict, file, and ldap protocols. libcurl also supports HTTPS certificates, HTTP POST, HTTP PUT, FTP uploading (this can also be done with PHP's ftp extension), HTTP form based upload, proxies, cookies, and user+password authentication.
 
 Once you've compiled PHP with cURL support, you can begin using the cURL functions. The basic idea behind the cURL functions is that you initialize a cURL session using the curl_init(), then you can set all your options for the transfer via the curl_setopt(), then you can execute the session with the curl_exec() and then you finish off your session using the curl_close(). 
 

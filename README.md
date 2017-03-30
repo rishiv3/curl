@@ -55,3 +55,8 @@ try {
         E_USER_ERROR);
 }
 ````
+
+
+## For more information, please check -
+
+[cURL Functions](http://php.net/manual/en/ref.curl.php)
